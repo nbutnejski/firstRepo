@@ -1,0 +1,11 @@
+Naum Laptop@DESKTOP ~/labEden (logging)
+$ git log
+commit 393b22098a45d54dc02501a90ea2c2c770bdde31 (HEAD -> logging, ori/master, master)
+Author: Naum Butnejski <nbutnejski96@gmail.com>
+Date:   Tue Mar 13 10:26:15 2018 +0100
+
+    Izmena vo l1.txt
+
+commit 0c2f4b8956729ad05d0f51ba87a377f4e02a71c5
+Author: Naum Butnejski <nbutnejski6@gmail.com>
+Date:   Tue Mar 13 10:24:36 2018 +0100
