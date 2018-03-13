@@ -1,0 +1,94 @@
+
+$ mkdir labEden
+
+$ cd labEden
+
+$ notepad l1.txt
+
+$ git init
+Initialized empty Git repository in C:/Users/Naum Laptop/labEden/.git/
+
+$ git add .
+
+$ git help add
+
+$ git commit -m "Initial commit"
+[master (root-commit) 0c2f4b8] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 l1.txt
+
+$ notepad l1.txt
+
+$ git add --all
+
+
+$ git commit -m "Izmena vo l1.txt"
+[master 393b220] Izmena vo l1.txt
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+$ git remote add origin https
+/
+
+$ git remote add origin https://github.com/nbutnejski/firstRepo.git
+fatal: remote origin already exists.
+
+$ git remote add ori https://github.com/nbutnejski/firstRepo.git
+
+$ git push -u ori master
+
+$ notepad l1.txt
+
+$ git checkout -- l1.txt
+
+$ git checkout -b logging
+Switched to a new branch 'logging'
+
+$ git log
+commit 393b22098a45d54dc02501a90ea2c2c770bdde31 (HEAD -> logging, ori/master, master)
+Author: Naum Butnejski <nbutnejski96@gmail.com>
+Date:   Tue Mar 13 10:26:15 2018 +0100
+
+    Izmena vo l1.txt
+
+commit 0c2f4b8956729ad05d0f51ba87a377f4e02a71c5
+Author: Naum Butnejski <nbutnejski6@gmail.com>
+Date:   Tue Mar 13 10:24:36 2018 +0100
+
+    Initial commit
+$ notepad log.txt
+
+
+Naum Laptop@DESKTOP-K2VKM3E MINGW64 ~/labEden (logging)
+Switched to branch 'master'
+Your branch is up to date with 'ori/master'.
+
+$ git merge logging
+Already up to date.
+
+$ git push ori
+Everything up-to-date
+
+$ git branch -d allcommands
+error: branch 'allcommands' not found.
+
+$ git checkout -b allcommands
+Switched to a new branch 'allcommands'
+
+(allcommands)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'ori/master'.
+
+$ git add .
+
+$ git commit -m "komituvav"
+[master 94a52a5] komituvav
+ 1 file changed, 11 insertions(+)
+ create mode 100644 log.txt
+
+$ git checkout allcommands
+Switched to branch 'allcommands'
+
+(allcommands)
+$ notepad commands.txt
+
